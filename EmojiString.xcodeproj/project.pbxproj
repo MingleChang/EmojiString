@@ -147,8 +147,8 @@
 		824C6DE21D93C4AE0040C847 /* f130.png in Resources */ = {isa = PBXBuildFile; fileRef = 824C6D5C1D93C4AE0040C847 /* f130.png */; };
 		824C6DE31D93C4AE0040C847 /* f131.png in Resources */ = {isa = PBXBuildFile; fileRef = 824C6D5D1D93C4AE0040C847 /* f131.png */; };
 		824C6DE41D93C4AE0040C847 /* f132.png in Resources */ = {isa = PBXBuildFile; fileRef = 824C6D5E1D93C4AE0040C847 /* f132.png */; };
-		824C6DFA1D93D6DA0040C847 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 824C6DF91D93D6DA0040C847 /* emoji.json */; };
 		824C6DFD1D93D7C70040C847 /* HBEmojiAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 824C6DFC1D93D7C70040C847 /* HBEmojiAttachment.m */; };
+		82FE52A11D9A1FE7009DEC60 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 82FE52A01D9A1FE7009DEC60 /* emoji.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -297,9 +297,9 @@
 		824C6D5C1D93C4AE0040C847 /* f130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f130.png; sourceTree = "<group>"; };
 		824C6D5D1D93C4AE0040C847 /* f131.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f131.png; sourceTree = "<group>"; };
 		824C6D5E1D93C4AE0040C847 /* f132.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f132.png; sourceTree = "<group>"; };
-		824C6DF91D93D6DA0040C847 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
 		824C6DFB1D93D7C70040C847 /* HBEmojiAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBEmojiAttachment.h; sourceTree = "<group>"; };
 		824C6DFC1D93D7C70040C847 /* HBEmojiAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBEmojiAttachment.m; sourceTree = "<group>"; };
+		82FE52A01D9A1FE7009DEC60 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,7 +361,7 @@
 		824C6CD91D93C4AE0040C847 /* emoj */ = {
 			isa = PBXGroup;
 			children = (
-				824C6DF91D93D6DA0040C847 /* emoji.json */,
+				82FE52A01D9A1FE7009DEC60 /* emoji.json */,
 				824C6CDA1D93C4AE0040C847 /* f000.png */,
 				824C6CDB1D93C4AE0040C847 /* f001.png */,
 				824C6CDC1D93C4AE0040C847 /* f002.png */,
@@ -616,7 +616,7 @@
 				824C6DE21D93C4AE0040C847 /* f130.png in Resources */,
 				824C6C701D93BA020040C847 /* LaunchScreen.storyboard in Resources */,
 				824C6DD41D93C4AE0040C847 /* f116.png in Resources */,
-				824C6DFA1D93D6DA0040C847 /* emoji.json in Resources */,
+				82FE52A11D9A1FE7009DEC60 /* emoji.json in Resources */,
 				824C6D961D93C4AE0040C847 /* f054.png in Resources */,
 				824C6DB71D93C4AE0040C847 /* f087.png in Resources */,
 				824C6D991D93C4AE0040C847 /* f057.png in Resources */,
@@ -856,6 +856,7 @@
 				824C6C761D93BA020040C847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

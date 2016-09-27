@@ -10,6 +10,6 @@
 
 @interface NSString (Emoji)
 
--(NSAttributedString *)transformAttributedString;
+-(NSAttributedString *)transformEmojiAttributedString;
 
 @end
